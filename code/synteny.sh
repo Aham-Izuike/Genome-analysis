@@ -16,6 +16,4 @@ module load blast
 # code
 blastn -query /home/izuike/output/flye_files/pilon/pilon_combined_genome/pilon.fasta \
 -subject /home/izuike/output/reference_data/sequence.fasta
--out /home/izuike/project_1/Genome-analysis/analysis/7_synteny_comparison/synteny_result.txt \
-
--outfmt	6
+-outfmt 6 -out /home/izuike/project_1/Genome-analysis/analysis/7_synteny_comparison/synteny_result.blastn 
